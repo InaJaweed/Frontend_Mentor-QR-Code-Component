@@ -1,0 +1,70 @@
+/* Learning about :root */
+:root {
+	--clr-card-100: hsl(0, 0%, 100%);
+	--clr-bg-500: hsl(212, 45%, 89%);
+
+	--clr-frontendqr-900: hsl(218, 44%, 22%);
+	--clr-frontendtext-300: hsl(216, 15%, 58%);
+
+	--ff-base: 'Outfit', 'sans-serif';
+	--fw-regular: 400;
+	--fw-bold: 700;
+}
+/* - Slate 300: hsl(212, 45%, 89%)
+- Slate 500: hsl(216, 15%, 48%)
+- Slate 900: hsl(218, 44%, 22%) */
+
+body {
+	background-color: var(--clr-bg-500);
+	font-family: var(--ff-base);
+	font-weight: var(--fw-regular);
+	color: var(--clr-frontendtext-300);
+	font-size: 15px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.container {
+	background-color: var(--clr-card-100);
+	display: flex;
+	flex-direction: column;
+	border-radius: 20px;
+
+	width: 320px;
+	height: 500px;
+
+	justify-content: center;
+	align-items: center;
+}
+
+.qr-code-content {
+	padding-top: 24px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+}
+
+h1 {
+	color: var(--clr-frontendqr-900);
+	font-weight: var(--fw-bold);
+	font-size: 22px;
+	width: 256px;
+
+	line-height: 24px;
+}
+
+p {
+	padding: 16px 0 40px 0;
+	width: 256px;
+}
+
+img {
+	margin-top: 32px;
+	max-width: 288px;
+	max-height: 288px;
+	border-radius: 15px;
+}

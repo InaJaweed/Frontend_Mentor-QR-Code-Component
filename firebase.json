@@ -1,0 +1,7 @@
+{
+	"hosting": {
+		"site": "frontendmentor-qr-code-component-9c938",
+		"public": ".",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"]
+	}
+}

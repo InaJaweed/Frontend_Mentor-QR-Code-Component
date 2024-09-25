@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"firebase": "^10.13.0"
+	},
+	"scripts": {
+		"deploy-qr": "firebase deploy --only hosting:frontendmentor-qr-code-component-9c938"
+	}
+}
